@@ -1,0 +1,184 @@
+@import url('https://fonts.cdnfonts.com/css/plexus-sans');
+                
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plexus Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFDD0;
+    padding: 20px;
+}
+
+nav img{
+    width: 7%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+nav ul li{
+
+    list-style: none;
+}
+
+nav ul li a{
+    font-family: 'Plexus Sans', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: black;
+    transition: color .5s ease-in;
+}
+
+nav ul li a svg{
+    fill: black;
+}
+
+.home-section{
+    background-image: url('../img/Newly-renovated-Yaba-Centre-5.jpeg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.home-section-inner{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.home-section-inner h1{
+    font-size: 60px;
+    margin-left: -80px;
+}
+
+.about-us-section{
+    background-color: #FFA500;
+    padding: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 50px;
+}
+
+.about-us-section img{
+    width: 50%;
+}
+
+.events-section{
+    padding: 60px;
+}
+
+.events-section-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.events-section-inner div{
+    width: 30%;
+    background-color: #4A3737;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #FFFDD0;
+}
+
+.events-section-inner div img{
+    width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.events-section h1{
+    color: #4A3737;
+    font-size: 35px;
+}
+
+.events-section-inner div h2, .events-section-inner div p{
+    padding: 0 15px;
+}
+
+.events-section-inner div p{
+    font-size: 14px;
+}
+
+.events-section-inner div a{
+    background-color: #FFFDD0;
+    padding: 9px 20px;
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #070707;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+    transition: all .5s ease-in-out;
+}
+
+.events-section-inner div a:hover{
+    background-color: #e6e3af;
+}
+
+.local-community-section{
+    background-color: #FFA500;
+    padding: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 50px;
+}
+
+.local-community-section img{
+    width: 50%;
+}
+
+.local-community-section div h1{
+    font-size: 30px;
+}
+
+.local-community-section div p{
+    font-size: 15px;
+}
+
+footer{
+    background-color: #FFFDD0;
+    text-align: center;
+    padding: 30px;
+    margin-top: 5em;
+}
+
+footer div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer div img{
+    width: 7%;
+}
